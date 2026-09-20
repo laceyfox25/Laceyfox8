@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lacey Fox</title>
+    <title>Unit 1 | Lacey Fox</title>
     <style>
         * {
             margin: 0;
@@ -30,9 +30,19 @@
             gap: 20px;
         }
 
-        .site-title {
+        .header-text {
             color: white;
-            font-size: 36px;
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            margin-top: 4px;
         }
 
         nav ul {
@@ -57,26 +67,19 @@
             padding: 0 20px;
         }
 
-        section {
-            margin-bottom: 40px;
-        }
-
         h2 {
             color: #ff69b4;
             font-size: 32px;
             margin-bottom: 20px;
         }
 
-        p {
-            line-height: 1.6;
-            font-size: 16px;
-            color: #333;
-            margin-bottom: 15px;
-        }
-
-        @media (max-width: 600px) {
+        @media (max-width: 700px) {
             .site-header {
                 flex-direction: column;
+            }
+
+            .header-text {
+                text-align: center;
             }
 
             nav ul {
@@ -89,11 +92,15 @@
 <body>
     <header>
         <div class="site-header">
-            <h1 class="site-title">Lacey Fox</h1>
+            <div class="header-text">
+                <h1>Unit 1</h1>
+                <p class="subtitle">Unit 1 Lens-Based Analysis Essay</p>
+                <p class="subtitle">Writing Process Archive</p>
+            </div>
             <nav aria-label="Main navigation">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#about">About Me</a></li>
+                    <li><a href="index.html#about">About Me</a></li>
                     <li><a href="unit1.html">Unit 1</a></li>
                 </ul>
             </nav>
@@ -101,16 +108,7 @@
     </header>
 
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hi, my name is Lacey Fox, and I am from Cleveland, Ohio. I go to Indiana University, where I am majoring in biology on the pre-med track. I chose biology because I want to become a dermatologist one day. I have always been interested in science and health, and I am excited to learn more about these subjects throughout college. I know becoming a dermatologist will take a lot of school and hard work, but it is something I really want to accomplish.</p>
-
-            <p>Some of my favorite things to do are working out, shopping, making art, and hanging out with my friends. I really enjoy workout classes, especially Pilates and VersaClimber classes. They are challenging, but they are also a fun way for me to stay active. When I am with my friends, we like going out to eat, trying new places, shopping, and getting ice cream together.</p>
-
-            <p>I have worked at a gymnastics facility and at the front desk of a gym. These jobs have helped me become more responsible, organized, and comfortable talking to people. I also like that both jobs involve fitness, since that is something I am interested in.</p>
-
-            <p>I like writing, especially when I can write about something that interests me. I prefer reading nonfiction because I like learning about real life things.</p>
-        </section>
+        <h2>Unit 1</h2>
     </main>
 </body>
 </html>
