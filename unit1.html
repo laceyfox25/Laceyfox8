@@ -62,7 +62,7 @@
         }
 
         main {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 40px auto;
             padding: 0 20px;
         }
@@ -84,19 +84,39 @@
             color: #333;
         }
 
-        .image-wrap {
-            margin: 30px 0;
-            text-align: center;
+        .content-row {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+            margin-top: 30px;
         }
 
-        img {
-            max-width: 100%;
+        .text-column {
+            flex: 1.5;
+        }
+
+        .image-column {
+            flex: 1;
+            max-width: 400px;
+        }
+
+        .image-column img {
+            width: 100%;
             height: auto;
             border: 3px solid #ff69b4;
             border-radius: 8px;
+            display: block;
         }
 
-        @media (max-width: 700px) {
+        @media (max-width: 800px) {
+            .content-row {
+                flex-direction: column;
+            }
+
+            .image-column {
+                max-width: 100%;
+            }
+
             .site-header {
                 flex-direction: column;
             }
@@ -136,24 +156,29 @@
 
         <section class="blog-section">
             <h2>Blog: TikTok and Mental Health</h2>
-            <p>I originally started with a broad topic of mental health. We had already been discussing this topic in class, and it was something that had always interested me. When I looked at my inquiry notebook and my tree drawing, I noticed that I kept returning to the same two ideas: social media and mental health. That led me to think about the way mental health is perceived and discussed online. Social media and mental health separately were too broad to focus on, so I began thinking of ways to combine them into one phenomenon. My more specific research focus is: how repeated exposure to short-form mental health content on TikTok influences the way college students interpret and label their everyday stress, emotions, and behaviors.</p>
 
-            <p>This stood out to me because I constantly see posts about anxiety, ADHD, depression, and burnout. As someone who has experienced some of these things firsthand, I often find some of these posts frustrating because they do not seem very accurate. A lot of mental health content describes experiences that are also normal parts of college life, such as procrastination, being tired, struggling to focus, feeling stressed, or losing motivation for school. These behaviors are often presented online as clear signs of a mental health disorder, which is not always the case. Since TikTok videos are short and relatable, it is easy to see myself in them. The pattern I noticed is that ordinary experiences are often explained using mental health language online. Just because someone is experiencing these things does not automatically mean they have a mental health disorder.</p>
+            <div class="content-row">
+                <div class="text-column">
+                    <p>I originally started with a broad topic of mental health. We had already been discussing this topic in class, and it was something that had always interested me. When I looked at my inquiry notebook and my tree drawing, I noticed that I kept returning to the same two ideas: social media and mental health. That led me to think about the way mental health is perceived and discussed online. Social media and mental health separately were too broad to focus on, so I began thinking of ways to combine them into one phenomenon. My more specific research focus is: how repeated exposure to short-form mental health content on TikTok influences the way college students interpret and label their everyday stress, emotions, and behaviors.</p>
 
-            <p>Right now, I interpret this pattern as social media changing the way students understand their own emotions. For example, if a student goes to college and begins feeling more stressed and burnt out, they might simply attribute it to their transition, lack of sleep, or academic pressure. After seeing a video about how these experiences could be symptoms of anxiety or ADHD, they may start to believe they have a disorder. This makes me wonder whether TikTok is spreading awareness about mental health or shaping the way people define what mental health struggles look like.</p>
+                    <p>This stood out to me because I constantly see posts about anxiety, ADHD, depression, and burnout. As someone who has experienced some of these things firsthand, I often find some of these posts frustrating because they do not seem very accurate. A lot of mental health content describes experiences that are also normal parts of college life, such as procrastination, being tired, struggling to focus, feeling stressed, or losing motivation for school. These behaviors are often presented online as clear signs of a mental health disorder, which is not always the case. Since TikTok videos are short and relatable, it is easy to see myself in them. The pattern I noticed is that ordinary experiences are often explained using mental health language online. Just because someone is experiencing these things does not automatically mean they have a mental health disorder.</p>
 
-            <p>At the same time, I realize I am also making assumptions. I do not know whether these videos actually influence people or how they do so. Personally, I am easily influenced by what I see online, especially on TikTok. I am not saying that mental health content is inherently harmful; I just think people can misinterpret it. On the other hand, it could help some people feel seen and understood. This is why the phenomenon is not as simple as saying that mental health TikToks are harmful to college students.</p>
+                    <p>Right now, I interpret this pattern as social media changing the way students understand their own emotions. For example, if a student goes to college and begins feeling more stressed and burnt out, they might simply attribute it to their transition, lack of sleep, or academic pressure. After seeing a video about how these experiences could be symptoms of anxiety or ADHD, they may start to believe they have a disorder. This makes me wonder whether TikTok is spreading awareness about mental health or shaping the way people define what mental health struggles look like.</p>
 
-            <p>I now have more questions. How much does repeated exposure to mental health content actually influence the way college students understand themselves? Why are videos listing “signs” of disorders so relatable? How does the short format of TikTok affect the amount of context people receive? For my lenses, I want to look at specific videos, posts, and articles that discuss the signs and symptoms of mental health disorders as well as posts that use mental health language to describe normal experiences. I could analyze which behaviors the videos present as symptoms and what information or context gets left out.</p>
+                    <p>At the same time, I realize I am also making assumptions. I do not know whether these videos actually influence people or how they do so. Personally, I am easily influenced by what I see online, especially on TikTok. I am not saying that mental health content is inherently harmful; I just think people can misinterpret it. On the other hand, it could help some people feel seen and understood. This is why the phenomenon is not as simple as saying that mental health TikToks are harmful to college students.</p>
 
-            <p>I found an article called “Misinformation Mayhem: The Effects of TikTok Content on ADHD Knowledge, Stigma, and Treatment Seeking Intentions” by Ashley Schiros, a child psychiatrist. This study focuses on college students who viewed misleading ADHD TikToks and then showed less accurate knowledge than they had before. The researchers found that students exposed to ADHD misinformation had “significantly less accurate ADHD knowledge, but higher confidence” in their knowledge afterward. This strengthens my interpretation because it shows that TikTok content can influence how college students understand mental health disorders. However, the study complicates my original idea because students who viewed accurate content actually gained knowledge. This makes me wonder whether TikTok itself is the problem, or whether the real issue is how difficult it can be to distinguish accurate information from inaccurate information.</p>
+                    <p>I now have more questions. How much does repeated exposure to mental health content actually influence the way college students understand themselves? Why are videos listing “signs” of disorders so relatable? How does the short format of TikTok affect the amount of context people receive? For my lenses, I want to look at specific videos, posts, and articles that discuss the signs and symptoms of mental health disorders as well as posts that use mental health language to describe normal experiences. I could analyze which behaviors the videos present as symptoms and what information or context gets left out.</p>
 
-            <p>So far, my X-Y thesis statement is: while short-form mental health content on TikTok can help college students recognize and better understand mental health struggles, it may also influence them to interpret stress, emotions, and behaviors through the lens of mental health disorders.</p>
+                    <p>I found an article called “Misinformation Mayhem: The Effects of TikTok Content on ADHD Knowledge, Stigma, and Treatment Seeking Intentions” by Ashley Schiros, a child psychiatrist. This study focuses on college students who viewed misleading ADHD TikToks and then showed less accurate knowledge than they had before. The researchers found that students exposed to ADHD misinformation had “significantly less accurate ADHD knowledge, but higher confidence” in their knowledge afterward. This strengthens my interpretation because it shows that TikTok content can influence how college students understand mental health disorders. However, the study complicates my original idea because students who viewed accurate content actually gained knowledge. This makes me wonder whether TikTok itself is the problem, or whether the real issue is how difficult it can be to distinguish accurate information from inaccurate information.</p>
+
+                    <p>So far, my X-Y thesis statement is: while short-form mental health content on TikTok can help college students recognize and better understand mental health struggles, it may also influence them to interpret stress, emotions, and behaviors through the lens of mental health disorders.</p>
+                </div>
+
+                <div class="image-column">
+                    <img src="Sep%2016,%20Doc%203%2009:02:30.410.jpeg" alt="Brainstorming image for TikTok and mental health">
+                </div>
+            </div>
         </section>
-
-        <div class="image-wrap">
-            <img src="Sep%2016,%20Doc%203%2009:02:30.410.jpeg" alt="Document image">
-        </div>
     </main>
 </body>
 </html>
